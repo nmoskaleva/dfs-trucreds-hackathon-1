@@ -50,7 +50,7 @@ xApiKey="7hD1b6XAJ9TYohsTcpqAcf6Xc2VR7RUGo3LiSFw4cS2n:5NAS3kkqLiteSePxk6tAhGsfdX
 credDefId="Aa4sRAaxcSB4CqNJgnEUVk:3:CL:325441:latest"
 ```
 
-- Change the values for **credentialData** with your values in the **IssuerReuse.js** file:
+- Change the values for **credentialData** with your values in the **Issuer.js** file:
 ```
 const credentialData = '<< PUT CREDENTIAL DATA HERE >>' // Data you'll issue in a credential.
 ```
@@ -63,8 +63,9 @@ const credentialData = {
 ```
 - Start Issuer app
 ```sh
-node IssuerReuse.js
+node Issuer.js
 ```
 Observe messages being exchanged between an Issuer app and a Verity application server on the console output. Scan QR code with a ConnectMe device to establish the connection when required.
-- Open Issuer webapp in browser at http://localhost:3000
+
+Open Issuer webapp in browser at http://localhost:3000
   
