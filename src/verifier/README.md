@@ -46,3 +46,4 @@ xApiKey="7hD1b6XAJ9TYohsTcpqAcf6Xc2VR7RUGo3LiSFw4cS2n:5NAS3kkqLiteSePxk6tAhGsfdX
 node VerifierReuse.js
 ```
 Observe messages being exchanged between an Verifier app and a Verity application server on the console output. Scan QR code with a ConnectMe device to establish the connection when required.
+- Open Verifier webapp in browser at http://localhost:3000

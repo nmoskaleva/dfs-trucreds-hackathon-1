@@ -57,12 +57,14 @@ const credentialData = '<< PUT CREDENTIAL DATA HERE >>' // Data you'll issue in 
 Sample values might look like this:
 ```javascript
 const credentialData = {
-    name: 'Joe Smith', 
-    degree: 'Bachelors'
-    }
+    "First Name": "John", 
+    "Last Name": "Doe"
+}
 ```
 - Start Issuer app
 ```sh
 node IssuerReuse.js
 ```
 Observe messages being exchanged between an Issuer app and a Verity application server on the console output. Scan QR code with a ConnectMe device to establish the connection when required.
+- Open Issuer webapp in browser at http://localhost:3000
+  
