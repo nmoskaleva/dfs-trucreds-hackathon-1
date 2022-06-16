@@ -336,6 +336,6 @@ app.use(express.static('public'));
 
 // Start server
 app.listen(PORT, () => {
-	console.log(`Webhook listening on port ${PORT}`)
+	console.log(`Server listening on port ${PORT}`)
 	run()
 })
