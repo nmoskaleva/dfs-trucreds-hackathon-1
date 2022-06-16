@@ -29,10 +29,6 @@ domainDid="<< PUT DOMAIN DID HERE >>"
 
 # REST API key associated with your Domain DID
 xApiKey="<< PUT X-API-KEY HERE >>"
-
-# Credential definition Id used for issuing credentials 
-# It has to be endorsed by Avast on the Sovrin Staging Net
-credDefId="<< PUT YOUR CREDENTIAL DEFINITION ID HERE >>"
 ```
 Sample values might look like this:
 ```
@@ -44,18 +40,18 @@ domainDid="AVYqFqjN759g87Z4sfZ3ED"
 
 # REST API key associated with your Domain DID
 xApiKey="7hD1b6XAJ9TYohsTcpqAcf6Xc2VR7RUGo3LiSFw4cS2n:5NAS3kkqLiteSePxk6tAhGsfdXnniX1ZM8xDjhwJiVFCwak7sUmuJiof7GwkJx6PV3yUCQwruRpxNpqq8FNvn69H"
-
-# Credential definition Id used for issuing credentials 
-# It has to be endorsed by Avast on the Sovrin Staging Net
-credDefId="Aa4sRAaxcSB4CqNJgnEUVk:3:CL:325441:latest"
 ```
 
-- Change the values for **credentialData** with your values in the **Issuer.js** file:
+- Change the values for **credDefId** and **credentialData** with your values in the **Issuer.js** file:
 ```
+const credDefId = '<< PUT YOUR CREDENTIAL DEFINITION ID HERE >>' // credential definition Id you'll use for issuing credentials - it has to be endorsed on the Sovrin Staging Net
+
 const credentialData = '<< PUT CREDENTIAL DATA HERE >>' // Data you'll issue in a credential.
 ```
 Sample values might look like this:
 ```javascript
+const credDefId="Aa4sRAaxcSB4CqNJgnEUVk:3:CL:325441:latest"
+
 const credentialData = {
     "First Name": "John", 
     "Last Name": "Doe"

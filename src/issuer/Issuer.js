@@ -17,7 +17,6 @@ const PORT = 3000
 const verityUrl = process.env["verityUrl"]
 const domainDid = process.env["domainDid"]
 const xApiKey = process.env["xApiKey"]
-const credDefId = process.env["credDefId"]
 
 // Verify that .env variables are set
 let error = false;
@@ -33,10 +32,6 @@ if (!xApiKey) {
 	console.log("The 'xApiKey' must be set in the '.env' file.")
 	error = true;
 }
-if (!credDefId) {
-	console.log("The 'credDefId' must be set in the '.env' file.")
-	error = true;
-}
 if (error) {
 	process.exit(1);
 }
@@ -45,6 +40,12 @@ if (error) {
 // STEP 2 - Specify data for credential to issue
 // NOTE: Make sure you use ALL fields from the schema you used for a credential definition
 //-------------------------------------------------------------------
+
+// Credential definition Id used for issuing credentials 
+// It has to be endorsed by Avast on the Sovrin Staging Net
+const credDefId="Aa4sRAaxcSB4CqNJgnEUVk:3:CL:325441:latest"
+
+// Credential data
 const credentialData = 
 {
 	"First Name": "John",
