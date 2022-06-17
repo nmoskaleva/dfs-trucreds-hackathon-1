@@ -10,7 +10,7 @@ services:
     build:
       context: issuer
     ports:
-      - "8080:3000"
+      - "3000:3000"
     networks:
       - di_network
 
@@ -22,7 +22,7 @@ services:
     build:
       context: verifier
     ports:
-      - "8081:3000"
+      - "3000:3000"
     networks:
       - di_network
 

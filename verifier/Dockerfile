@@ -70,7 +70,7 @@ RUN update-ca-certificates
 
 ## Copy pertinent files into container
 RUN mkdir -p /root/verifier
-COPY src/* /root/verifier
+COPY src/ /root/verifier/
 
 EXPOSE 3000
 

@@ -70,7 +70,7 @@ RUN update-ca-certificates
 
 ## Copy pertinent files into container
 RUN mkdir -p /root/issuer
-COPY src/* /root/issuer
+COPY src/ /root/issuer/
 
 EXPOSE 3000
 
