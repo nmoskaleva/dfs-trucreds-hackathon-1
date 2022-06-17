@@ -14,9 +14,7 @@ docker-compose build
 
 WARNING: The issuer and verifier may be not running at the same time because of an ngrok restriction.
 
-##### Running the issuer
-
-To run the issuer:
+##### Run the issuer
 
 ```
 docker-compose up -d issuer
@@ -24,17 +22,13 @@ docker-compose up -d issuer
 
 You may then visit the issuer at http://localhost:3000.
 
-##### Stopping the issuer
-
-To stop the issuer:
+##### Stop the issuer
 
 ```
 docker-compose stop issuer
 ```
 
-### Running the verifier
-
-To run the verifier:
+##### Run the verifier
 
 ```
 docker-compose up -d verifier
@@ -42,11 +36,8 @@ docker-compose up -d verifier
 
 You may then visit the verifier at http://localhost:3000.
 
-##### Stopping the verifier
-
-To stop the verifier:
+##### Stop the verifier
 
 ```
 docker-compose stop verifier
 ```
-
