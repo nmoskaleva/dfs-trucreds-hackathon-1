@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  issuer:
+    platform: linux/x86_64
+    restart: always
+    container_name: issuer
+    image: issuer
+    build:
+      context: issuer
+    ports:
+      - "8080:3000"
+    networks:
+      - di_network
+
+  verifier:
+    platform: linux/x86_64
+    restart: always
+    container_name: verifier
+    image: verifier
+    build:
+      context: verifier
+    ports:
+      - "8081:3000"
+    networks:
+      - di_network
+
+networks:
+  di_network:
