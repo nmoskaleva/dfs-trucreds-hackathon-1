@@ -5,7 +5,8 @@
   "main": "Issuer.js",
   "scripts": {
     "lint": "standard",
-    "lint-fix": "standard --fix"
+    "lint-fix": "standard --fix",
+    "start": "node Issuer.js"
   },
   "author": "",
   "license": "",

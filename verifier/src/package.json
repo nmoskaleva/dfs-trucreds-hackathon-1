@@ -5,7 +5,8 @@
   "main": "Verifier.js",
   "scripts": {
     "lint": "standard",
-    "lint-fix": "standard --fix"
+    "lint-fix": "standard --fix",
+    "start": "node Verifier.js"
   },
   "author": "Vladan Divac <vladan.divac@evernym.com>",
   "license": "",
