@@ -2,11 +2,11 @@
 
 This document describes how to build a custom issuer application which uses the [Verity REST APIs](https://gitlab.com/evernym/verity/verity-sdk#rest-api).
 
-A sample node-based issuer web application is in the `issuer` directory.  The simplest way to create a custom issuer web application is by customizing this sample node application, which is what the remainder of this document assumes.  If you choose to use another language (e.q. java, python, etc), you will need to translate the sample code to the language of your choice.
+This directory contains a sample node-based issuer web application.  The simplest way to create a custom issuer web application is by customizing this sample node application, which is what the remainder of this document assumes.  If you choose to use another language (e.q. java, python, etc), you will need to translate the sample code to the language of your choice.
 
 ## Customizing the sample issuer code
 
-The following contains step-by-step instructions for how to customize the sample node-based issuer web application.
+The following are step-by-step instructions for how to customize the sample node-based issuer web application.
 
 1. If you do not yet have a team DOMAIN_DID and API_KEY, send an email of the following form to natalia.moskaleva@avast.com:
 
@@ -50,13 +50,13 @@ The following contains step-by-step instructions for how to customize the sample
 
 5. Edit the file `$APP_DIR/src/.env` and set your DOMAIN_DID, API_KEY, and CREDENTIAL_DEFINITION_ID values appropriately (as obtained from steps 1 and 2).
 
-6. Edit the `$APP_DIR/src/Issuer.js` file and set the `credData` variable with the appropriate attribute names and values.
+6. Edit the `$APP_DIR/src/Issuer.js` file and set the `credData` variable with the appropriate attribute names and values.  You may also further customize this application based on your use case.
 
    TODO: Can we ask for DFS user/pass over the connection in order to authenticate and issue the appropriate attribute values.
 
 ## Building and running your issuer
 
-You may choose to build and run your issuer [via docker](#building-and-running-your-issuer-via-docker) or [natively](#building-and-running-your-issuer-natively).
+You may build and run your issuer [via docker](#building-and-running-your-issuer-via-docker) or [natively](#building-and-running-your-issuer-natively).
 
 ## Building and running your issuer via docker
 
