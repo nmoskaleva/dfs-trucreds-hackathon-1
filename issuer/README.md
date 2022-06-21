@@ -58,7 +58,7 @@ The following are step-by-step instructions for how to customize the sample node
 
 You may build and run your issuer [via docker](#building-and-running-your-issuer-via-docker) or [natively](#building-and-running-your-issuer-natively).
 
-## Building and running your issuer via docker
+### Building and running your issuer via docker
 
 To build:
 
@@ -75,7 +75,7 @@ docker-compose up -d
 
 Your issuer should be available at `http://localhost:3000`.
 
-## Building and running your issuer natively
+### Building and running your issuer natively
 
 Prereqs:
    - You have NodeJs v12 installed
