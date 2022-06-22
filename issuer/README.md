@@ -14,7 +14,7 @@ Ensure that the following prereqs are met.
 
 ## Gather information
 
-There are several pieces of information which you will need to get from Avast in order to write your custom issuer web application.
+There are several pieces of information which you will need to get in order to write your custom issuer web application.
 
 1. If you do not yet have a team DOMAIN_DID and X_API_KEY, send an email of the following form to natalia.moskaleva@avast.com:
 
@@ -49,7 +49,9 @@ There are several pieces of information which you will need to get from Avast in
     node app.js
     ```
 
-4. Visit http://localhost:3000 in your browser.
+4. Visit http://localhost:3000 in your browser.  You should see a screen similar to the following:
+
+   ![Verity Example App](./images/verity-example-app.png)
 
    a. Expand `Configuration` and click the `Update configuration on VAS` button.
 
