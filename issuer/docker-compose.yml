@@ -11,6 +11,8 @@ services:
       context: .
     ports:
       - "3000:3000"
+    volumes:
+      - ./code/src:/root/issuer/src
     networks:
       - issuer_network
 

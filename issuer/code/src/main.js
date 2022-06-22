@@ -14,22 +14,27 @@ const PORT = 3000
 //-------------------------------------------------------------------
 // STEP 1 - Set configuration values for Verity application server
 //-------------------------------------------------------------------
-const verityUrl = process.env["verityUrl"]
-const domainDid = process.env["domainDid"]
-const xApiKey = process.env["xApiKey"]
+const verityUrl = process.env["VERITY_URL"] || "https://vas.pps.evernym.com"
+const domainDid = process.env["DOMAIN_DID"]
+const xApiKey = process.env["X_API_KEY"]
+const credDefId = process.env["CREDENTIAL_DEFINITION_ID"]
 
 // Verify that .env variables are set
 let error = false;
 if (!verityUrl) {
-	console.log("The 'verityUrl' must be set in the '.env' file.")
+	console.log("The 'VERITY_URL' environment variable must be set.")
 	error = true;
 }
 if (!domainDid) {
-	console.log("The 'domainDid' must be set in the '.env' file.")
+	console.log("The 'DOMAIN_DID' environment variable must be set.")
 	error = true;
 }
 if (!xApiKey) {
-	console.log("The 'xApiKey' must be set in the '.env' file.")
+	console.log("The 'X_API_KEY' environment variable must be set.")
+	error = true;
+}
+if (!credDefId) {
+	console.log("The 'CREDENTIAL_DEFINITION_ID' environment variable is not set.")
 	error = true;
 }
 if (error) {
@@ -41,16 +46,9 @@ if (error) {
 // NOTE: Make sure you use ALL fields from the schema you used for a credential definition
 //-------------------------------------------------------------------
 
-// Credential definition Id used for issuing credentials 
-// It has to be endorsed by Avast on the Sovrin Staging Net
-const credDefId="Aa4sRAaxcSB4CqNJgnEUVk:3:CL:325441:latest"
-
 // Credential data
-const credentialData = 
-{
-	"First Name": "John",
-	"Last Name": "Doe"
-}
+const credentialData = {
+};
 
 // Maps containing promises for the started interactions - threadId is used as the map key
 const updateConfigsMap = new Map() 		// Update configs

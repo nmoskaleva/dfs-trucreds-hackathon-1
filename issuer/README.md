@@ -4,41 +4,100 @@ This document describes how to build a custom issuer application which uses the 
 
 This directory contains a sample node-based issuer web application.  The simplest way to create a custom issuer web application is by customizing this sample node application, which is what the remainder of this document assumes.  If you choose to use another language (e.q. java, python, etc), you will need to translate the sample code to the language of your choice.
 
-## Customizing the sample issuer code
+## Prereqs
 
-The following are step-by-step instructions for how to customize the sample node-based issuer web application.
+Ensure that the following prereqs are met.
 
-1. If you do not yet have a team DOMAIN_DID and API_KEY, send an email of the following form to natalia.moskaleva@avast.com:
+   - Install node.js v12 or later
+   - Install ngrok ([https://ngrok.com/](https://ngrok.com/))
+   - Install docker and docker-compose
+
+## Gather information from Avast
+
+There are several pieces of information which you will need to get from Avast in order to write your custom issuer web application.
+
+1. If you do not yet have a team DOMAIN_DID and X_API_KEY, send an email of the following form to natalia.moskaleva@avast.com:
 
    ```
-   Subject: Request for DFS hackathon team DOMAIN_DID and API_KEY
+   Subject: Request for DFS hackathon team DOMAIN_DID and X_API_KEY
 
    Team: <your team name>
    ```
 
-   Wait for Natalia will respond with your team's DOMAIN_DID and API_KEY values.
+   Wait for Natalia will respond with your team's DOMAIN_DID and X_API_KEY values.
    
-   Your team only needs a single DOMAIN_DID and API_KEY, so if you already have these, you can skip this step.
+   Your team only needs a single DOMAIN_DID and X_API_KEY, so if you already have these, you can skip this step.
 
-2. Request a CREDENTIAL_DEFINITION_ID by sending an email of the following form to natalia.moskaleva@avast.com:
+2. Start ngrok as follows in a separate terminal window and leave it running:
 
-      ```
-      Subject: Request for DFS CREDENTIAL_DEFINITION_ID
-   
-      DOMAIN_DID: <your DOMAIN_DID>
-      ATTRIBUTES: <a list of credential attribute names>
-      ```
+   ```
+   ngrok http 3000
+   ```
 
-      The list of attribute names that you request will depend upon the attributes that your issuer will include in the credentials which it issues.  This will depend upon your use case.  For example, the ATTRIBUTES might be:
-      ```
-      ATTRIBUTES: first_name, last_name, age, city, state, zip
-      ```
+   Let `WEBHOOK_URL` refer to your NGROK forwarding URL of the form `https://bba4-2603-6081-1e40-203-c1bd-fd8e-b2f0-b1d4.ngrok.io`.
 
-      Wait for Natalia to respond with your issuer's CREDENTIAL_DEFINITION_ID.
+3. Clone the Verity SDK and build/run the sample Verity web application as follows:
 
-3. If you have not yet done so, fork this repository and clone the forked repository.  Set the `REPO_DIR` environment variable so that it refers to the `dfs-hackathon-digital-identity` directory just created when you cloned. 
+    ```
+    git clone https://gitlab.com/evernym/verity/verity-sdk.git
+    cd verity-sdk/samples/rest-api/web-app
+    npm install
+    export VERITY_URL=https://vas.pps.evernym.com
+    export DOMAIN_DID=<YOUR DOMAIN_DID FROM STEP 1>
+    export X_API_KEY=<YOUR X_API_KEY FROM STEP 1>
+    export WEBHOOK_URL=<YOUR WEBHOOK_URL FROM STEP 2>
+    node app.js
+    ```
 
-4. Recursively copy the `$REPO_DIR/issuer` directory to another directory for your issuer application and set the `APP_DIR` environment variable to refer to this newly created directory.
+4. Visit http://localhost:3000 in your browser.
+
+   a. Expand `Configuration` and click the `Update configuration on VAS` button.
+
+   b. Expand `Setup Issuer` and click the `Setup Issuer` button.  Copy the `Issuer DID` and `Issuer VerKey` values.  If Natalia did not already indicate in her previous response that these values have been endorsed, send another email to her or respond to her previous response, including the `Issuer DID` and `Issuer VerKey` values and requesting that they be endorsed before proceeding.
+
+   c. Expand `Schemas` and fill in values for the following fields:
+      
+      * Schema Name
+        
+        This name must be unique on the ledger; therefore, we recommend that you use a name of the form: `DFS-hackathon-<shortTeamName>-<suffix>` (e.g. `DFS-hackathon-team1-employee`).
+
+      * Schema Version
+
+        Typically a value of the form `1.0`.
+
+      * Attribute Names
+
+        One or more attribute names (e.g. "first_name", "last_name", "job_level").
+
+       Make sure you remember these attribute names, because you will need them later.
+       
+       Click the `Write Schema` button and make a note of the  `Schema Id` value to be used in the next step.
+
+    d. Expand `Credential Definitions` and fill in the following fields:
+
+       * Credential Definition Name
+
+         This can be any name that you want.  It is only used locally.
+
+       * Schema ID
+
+         This must be the value of the `Schema Id` from the previous step.
+
+       Click the `Write Credential Definition` and set the `CREDENTIAL_DEFINITION_ID` environment variable to the value displayed as the `Credential Definition Id`.
+
+  5. Stop ngrok that was started in step 2 and the Verity sample web application which was started in step 3.
+
+You should now have the following environment variables set: `VERITY_URL`, `DOMAIN_DID`, `X_API_KEY`, `WEBHOOK_URL`, `CREDENTIAL_DEFINITION_ID`.
+
+You should also know the attribute names associated with the credential schema that you created.
+
+## Customizing the sample issuer code
+
+The following are step-by-step instructions for how to customize the sample node-based issuer web application.
+
+1. If you have not yet done so, fork this repository and clone the forked repository.  Set the `REPO_DIR` environment variable so that it refers to the `dfs-hackathon-digital-identity` directory created by the clone operation.
+
+2. Recursively copy the `$REPO_DIR/issuer` directory to another directory for your issuer application and set the `APP_DIR` environment variable to refer to this newly created directory.
 
    For example, if your web application is supposed to issue DFS employee credentials, you might copy the `$REPO_DIR/issuer` directory to `$REPO_DIR/issuer.dfsEmployeeCredentials` as follows:
 
@@ -48,11 +107,22 @@ The following are step-by-step instructions for how to customize the sample node
    export APP_DIR=$REPO_DIR/issuer.dfsEmployeeCredentials
    ```
 
-5. Edit the file `$APP_DIR/src/.env` and set your DOMAIN_DID, API_KEY, and CREDENTIAL_DEFINITION_ID values appropriately (as obtained from steps 1 and 2).
+3. Edit the file `$APP_DIR/code/.env` and set your DOMAIN_DID, X_API_KEY, and CREDENTIAL_DEFINITION_ID values appropriately as obtained from the [Gather information from Avast](#gather-information-from-avast) section.
 
-6. Edit the `$APP_DIR/src/Issuer.js` file and set the `credData` variable with the appropriate attribute names and values.  You may also further customize this application based on your use case.
+4. Edit the `$APP_DIR/code/src/main.js` file and set the `credentialData` variable with the appropriate attribute names and values.  For example, it might look as follows:
 
-   TODO: Can we ask for DFS user/pass over the connection in order to authenticate and issue the appropriate attribute values.
+   ```
+   // Credential data
+   const credentialData = {
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "age": 21
+   };
+   ```
+
+   Note that this sample application always issues the same attribute names and values.  This would obviously not be the case for a real world application since the values would differ depending on who is requesting the credential.  However, depending on your use case, it may be sufficient to assume that a single user (e.g. the infamous "Alice") has already been authenticated and always issue that user's credential.  Or you may choose to make your application more real-world by supporting issuance of credentials for multiple users.
+   
+   You will also likely want to further customize this application based on your use case.
 
 ## Building and running your issuer
 
@@ -60,20 +130,26 @@ You may build and run your issuer [via docker](#building-and-running-your-issuer
 
 ### Building and running your issuer via docker
 
-To build:
+To build your issuer:
 
 ```
 cd $APP_DIR
 docker-compose build
 ```
 
-To run:
+To run your issuer:
 
 ```
 docker-compose up -d
 ```
 
 Your issuer should be available at `http://localhost:3000`.
+
+To stop your issuer:
+
+```
+docker-compose stop
+```
 
 ### Building and running your issuer natively
 
@@ -86,7 +162,7 @@ Prereqs:
 To build:
 
 ```
-cd $APP_DIR/src
+cd $APP_DIR/code
 npm install
 ```
 
@@ -101,14 +177,25 @@ To run:
 2. Start your issuer web application as follows:
 
    ```
-   cd $APP_DIR src
-   node Issuer.js
+   cd $APP_DIR/code
+   npm run start
    ```
 
    Your issuer web application should be available at `http://localhost:3000`.
 
 ## Testing your issuer
 
-Install the Connect.Me Digital Wallet mobile application on your iphone or android device.
+With your issuer application running on your laptop, visit http://localhost:3000 in your browser.  You should see something similar to the following with a QR code.
 
-Scan the QR code displayed by your issuer application and follow the on-screen instructions.
+![Sample Issuer](./images/sample-issuer.png)
+
+Install the Connect.Me Digital Wallet mobile application on your iphone or android device.  It is available for free from the Apple AppStore Iphone and Google Play for Android.
+
+Open the Connect.Me application on your mobile device, click the `Scan` button on the lower right part of the screen, and scan the QR code displayed by the Sample Issuer.  Accept the connection offer and the credential offer on your mobile device.
+
+To see your connections in your Connect.Me mobile application, click the hamburger on the top left and select `My Connections`.
+You should have a connection to the issuer application.
+
+To see your credentials in your Connect.Me mobile application, click the hamburger on the top left and select `My Credentials`.  You should have a credential from the issuer application.
+
+You may now stop your issuer application on your laptop.

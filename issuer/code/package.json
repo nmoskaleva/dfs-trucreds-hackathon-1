@@ -2,11 +2,11 @@
   "name": "sample-issuer-app",
   "version": "1.0.0",
   "description": "A sample Issuer app that uses the Verity REST API",
-  "main": "Issuer.js",
+  "main": "src/main.js",
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "start": "node Issuer.js"
+    "start": "node src/main.js"
   },
   "author": "",
   "license": "",
