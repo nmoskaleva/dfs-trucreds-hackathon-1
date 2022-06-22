@@ -111,7 +111,9 @@ To run:
 
    Your verifier web application should be available at `http://localhost:3000`.
 
-## Testing your verifier
+## Testing your verifier with Connect.Me
+
+If you are developing your own mobile application, you should test your verifier application with it.  This section describes how to test it with the Connect.Me mobile application.
 
 With your verifier application running on your laptop, visit http://localhost:3000 in your browser.  You should see something similar to the following with a QR code.
 
@@ -119,7 +121,7 @@ With your verifier application running on your laptop, visit http://localhost:30
 
 Install the Connect.Me Digital Wallet mobile application on your iphone or android device.  It is available for free from the Apple AppStore Iphone and Google Play for Android.
 
-Open the Connect.Me application on your mobile device, click the `Scan` button on the lower right part of the screen, and scan the QR code displayed by the Sample Verifier.  If prompted to accept a connection, accept it.  You should be asked to share attributes. Once you share them, you should then see additional logs similar to the following in your "http://localhost:3000" browser window just below the QR code that you scanned.
+Open the Connect.Me application, click the `Scan` button on the lower right part of the screen, and scan the QR code displayed by the Sample Verifier.  If prompted to accept a connection, accept it.  You should be asked to share attributes. Once you share them, you should then see additional logs similar to the following in your "http://localhost:3000" browser window just below the QR code that you scanned.
 
 ![Sample Verifier Logs](./images/sample-verifier-logs.png)
 

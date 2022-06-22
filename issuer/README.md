@@ -183,7 +183,9 @@ To run:
 
    Your issuer web application should be available at `http://localhost:3000`.
 
-## Testing your issuer
+## Testing your issuer with Connect.Me
+
+If you are developing your own mobile application, you should test your issuer application with it.  This section describes how to test it with the Connect.Me mobile application.
 
 With your issuer application running on your laptop, visit http://localhost:3000 in your browser.  You should see something similar to the following with a QR code.
 
@@ -191,7 +193,7 @@ With your issuer application running on your laptop, visit http://localhost:3000
 
 Install the Connect.Me Digital Wallet mobile application on your iphone or android device.  It is available for free from the Apple AppStore Iphone and Google Play for Android.
 
-Open the Connect.Me application on your mobile device, click the `Scan` button on the lower right part of the screen, and scan the QR code displayed by the Sample Issuer.  Accept the connection offer and the credential offer on your mobile device.
+Open the Connect.Me mobile application, click the `Scan` button on the lower right part of the screen, and scan the QR code displayed by the Sample Issuer.  Accept the connection offer and the credential offer on your mobile device.
 
 To see your connections in your Connect.Me mobile application, click the hamburger on the top left and select `My Connections`.
 You should have a connection to the issuer application.
