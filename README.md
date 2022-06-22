@@ -4,8 +4,8 @@ This repository is for the DFS Digital Identity Hackathon participants who are o
 
 There are three samples provided:
 
-* [Sample issuer web application](#issuer/README.md)
+* [Sample issuer web application](issuer/README.md)
 
-* [Sample verifier web application](#verifier/README.md)
+* [Sample verifier web application](verifier/README.md)
 
-* [Sample mobile application](#mobile/README.md)
+* [Sample mobile application](mobile/README.md)
