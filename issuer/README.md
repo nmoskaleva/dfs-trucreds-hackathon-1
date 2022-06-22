@@ -59,7 +59,7 @@ There are several pieces of information which you will need to get from Avast in
       
       * Schema Name
         
-        This name must be unique on the ledger; therefore, we recommend that you use a name of the form: `DFS-hackathon-<shortTeamName>-<suffix>` (e.g. `DFS-hackathon-team1-employee`).
+        This name must be unique on the ledger; therefore, we recommend that you use a name of the form: DFS-hackathon-*shortTeamName*-*suffix* (e.g. `DFS-hackathon-team1-employee`).
 
       * Schema Version
 
@@ -69,21 +69,21 @@ There are several pieces of information which you will need to get from Avast in
 
         One or more attribute names (e.g. "first_name", "last_name", "job_level").
 
-       Make sure you remember these attribute names, because you will need them later.
+        Make sure you remember these attribute names, because you will need them later.
        
-       Click the `Write Schema` button and make a note of the  `Schema Id` value to be used in the next step.
+      Click the `Write Schema` button and make a note of the  `Schema Id` value to be used in the next step.
 
     d. Expand `Credential Definitions` and fill in the following fields:
 
-       * Credential Definition Name
+      * Credential Definition Name
 
-         This can be any name that you want.  It is only used locally.
+        This can be any name that you want.  It is only used locally.
 
-       * Schema ID
+      * Schema ID
 
-         This must be the value of the `Schema Id` from the previous step.
+        This must be the value of the `Schema Id` from the previous step.
 
-       Click the `Write Credential Definition` and set the `CREDENTIAL_DEFINITION_ID` environment variable to the value displayed as the `Credential Definition Id`.
+      Click the `Write Credential Definition` and set the `CREDENTIAL_DEFINITION_ID` environment variable to the value displayed as the `Credential Definition Id`.
 
   5. Stop ngrok that was started in step 2 and the Verity sample web application which was started in step 3.
 
@@ -116,11 +116,11 @@ The following are step-by-step instructions for how to customize the sample node
    const credentialData = {
       "first_name": "Alice",
       "last_name": "Smith",
-      "age": 21
+      "birthdate": 12356789
    };
    ```
 
-   Note that this sample application always issues the same attribute names and values.  This would obviously not be the case for a real world application since the values would differ depending on who is requesting the credential.  However, depending on your use case, it may be sufficient to assume that a single user (e.g. the infamous "Alice") has already been authenticated and always issue that user's credential.  Or you may choose to make your application more real-world by supporting issuance of credentials for multiple users.
+   Note that this sample application always issues the same attribute names and values.  This would obviously not be the case for a real world application since the values would differ depending on who is requesting the credential.  However, depending on your use case, it may be sufficient to assume that a single user (e.g. "Alice") has already been authenticated and always issue that user's credential.  Or you may choose to make your application more real-world by supporting issuance of credentials for multiple users.
    
    You will also likely want to further customize this application based on your use case.
 
