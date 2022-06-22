@@ -2,11 +2,11 @@
   "name": "sample-verifier-app",
   "version": "1.0.0",
   "description": "A sample Verifier app that uses the Verity REST API",
-  "main": "Verifier.js",
+  "main": "src/main.js",
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
-    "start": "node Verifier.js"
+    "start": "node src/main.js"
   },
   "author": "Vladan Divac <vladan.divac@evernym.com>",
   "license": "",

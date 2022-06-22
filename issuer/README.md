@@ -12,7 +12,7 @@ Ensure that the following prereqs are met.
    - Install ngrok ([https://ngrok.com/](https://ngrok.com/))
    - Install docker and docker-compose
 
-## Gather information from Avast
+## Gather information
 
 There are several pieces of information which you will need to get from Avast in order to write your custom issuer web application.
 
@@ -107,7 +107,7 @@ The following are step-by-step instructions for how to customize the sample node
    export APP_DIR=$REPO_DIR/issuer.dfsEmployeeCredentials
    ```
 
-3. Edit the file `$APP_DIR/code/.env` and set your DOMAIN_DID, X_API_KEY, and CREDENTIAL_DEFINITION_ID values appropriately as obtained from the [Gather information from Avast](#gather-information-from-avast) section.
+3. Edit the file `$APP_DIR/code/.env` and set your DOMAIN_DID, X_API_KEY, and CREDENTIAL_DEFINITION_ID values appropriately as obtained from the [Gather information](#gather-information) section.
 
 4. Edit the `$APP_DIR/code/src/main.js` file and set the `credentialData` variable with the appropriate attribute names and values.  For example, it might look as follows:
 

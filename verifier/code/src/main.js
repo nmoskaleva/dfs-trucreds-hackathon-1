@@ -14,22 +14,22 @@ const PORT = 3000
 //-------------------------------------------------------------------
 // STEP 1 - Set configuration values for Verity application server
 //-------------------------------------------------------------------
-const verityUrl = process.env["verityUrl"]
-const domainDid = process.env["domainDid"]
-const xApiKey = process.env["xApiKey"]
+const verityUrl = process.env["VERITY_URL"] || "https://vas.pps.evernym.com"
+const domainDid = process.env["DOMAIN_DID"]
+const xApiKey = process.env["X_API_KEY"]
 
 // Verify that .env variables are set
 let error = false;
 if (!verityUrl) {
-	console.log("The 'verityUrl' must be set in the '.env' file.")
+	console.log("The 'VERITY_URL' environment variable must be set in the '.env' file.")
 	error = true;
 }
 if (!domainDid) {
-	console.log("The 'domainDid' must be set in the '.env' file.")
+	console.log("The 'DOMAIN_DID' environment variable must be set in the '.env' file.")
 	error = true;
 }
 if (!xApiKey) {
-	console.log("The 'xApiKey' must be set in the '.env' file.")
+	console.log("The 'X_API_KEY' environment variable must be set in the '.env' file.")
 	error = true;
 }
 if (error) {
@@ -198,14 +198,14 @@ async function run() {
 			name: 'Proof of Name',
 			proof_attrs: [
 				{
-					name: 'First Name',
+					name: 'first_name',
 					restrictions: [],
-					self_attest_allowed: true
+					self_attest_allowed: false
 				},
 				{
-					name: 'Last Name',
+					name: 'last_name',
 					restrictions: [],
-					self_attest_allowed: true
+					self_attest_allowed: false
 				}
 			]
 		}

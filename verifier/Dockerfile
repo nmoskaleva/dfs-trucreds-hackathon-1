@@ -68,15 +68,6 @@ RUN update-ca-certificates
 #         fi ;\
 #     done
 
-## Copy pertinent files into container
-RUN mkdir -p /root/verifier
-COPY src/ /root/verifier/
-
-EXPOSE 3000
-
-# Add Keys and Update apt-get Libraries:
-WORKDIR /root
-
 RUN apt-get update
 
 # NodeJS 10.x install
@@ -92,6 +83,13 @@ RUN curl -O -s https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
     mv ngrok /usr/local/bin && \
     rm ngrok-stable-linux-amd64.zip
 
+## Copy pertinent files into container
+RUN mkdir -p /root/verifier
+COPY code/ /root/verifier/
+
+# Add Keys and Update apt-get Libraries:
+WORKDIR /root
+
 # Install NPM packages
 RUN cd /root/verifier && npm install
 
@@ -99,5 +97,8 @@ RUN cd /root/verifier && npm install
 # clean up apt lists
 RUN rm -rf /var/lib/apt/lists/*
 COPY supervisord.conf /etc/supervisord.conf
+
+EXPOSE 3000
+
 #### Entrypoint
 ENTRYPOINT ["/usr/bin/supervisord","-c","/etc/supervisord.conf"]
