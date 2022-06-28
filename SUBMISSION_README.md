@@ -40,9 +40,9 @@ Template Instructions: Provide a brief description of the use case tackled by th
 ```
 Template Instructions: Complete the table below.
 
-1. Use Case: Markdown file describing the story with suppport by UML diagrams. 
+1. Use Case: Markdown file describing the story with support by UML diagrams. 
 2. Design Thinking Miro Board: URL to whiteboard used for team brainstorming. 
-3. Design Thinking Playback Brief: PowerPoint Presention used to convey results of Design Thinking activities.
+3. Design Thinking Playback Brief: PowerPoint Presentation used to convey results of Design Thinking activities.
 4. Concept Playback Video: URL to Pitch Video recording conveying project problem statement and What/Why/Wow elements.
 5. Concept Show-n-Tell Video: URL Recording of a running solution to the proposed concept. 
 6. Code: URL to the code Readme file. 
