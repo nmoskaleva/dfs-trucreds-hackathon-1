@@ -1,16 +1,14 @@
-# Verity Flow
-
 # Digital Trust Ideation
 
-Follow these instructions to develop a prototype using **Verity Flow** for the ```Digital Trust Ideation``` track of the hackathon.
+Follow these instructions to develop a prototype using **Verity Flow** by [Avast](https://avast.com) for the ```Digital Trust Ideation``` track of the hackathon.
 
 Verity Flow will act as an issuer and as a verifier, and the Connect.Me mobile application will be the holder.
-
+## Tutorial
 The following is a tutorial to lead you step-by-step through the issuance and verification flows using these tools.
 
 1. First, install the Connect.Me Digital Wallet mobile application on your iphone or android device.  It is available for free from the Apple AppStore for your iphone device, or from Google Play for your android device.
 
-2. Create one or more Verity Flow accounts by sending an email of the following form to natalia.moskaleva@avast.com:
+2. Create one or more Verity Flow accounts by sending an email of the following form to [Natalia Moskaleva](mailto:natalia.moskaleva@avast.com):
 
    ```
    Subject: Request for DFS hackathon Verity Flow account(s)
@@ -33,7 +31,7 @@ The following is a tutorial to lead you step-by-step through the issuance and ve
 
    ![create-issuance-flow](./images/create-issuance-flow.png)
 
-   For #1, select "Issue" for the "Flow Template", and for the "Credential Name", enter a name which reflects the type of credenial being issue (e.g. "My DFS Employee Credential").
+   For #1, select "Issue" for the "Flow Template", and for the "Credential Name", enter a name which reflects the type of credential being issue (e.g. "My DFS Employee Credential").
 
    For #2, enter one or more attribute names and types for each attribute.
 
@@ -99,3 +97,19 @@ The following is a tutorial to lead you step-by-step through the issuance and ve
    ![display-values](./images/display-values.png)
 
 Congratulations!  You have successfully performed both an issuance and a verification flow.
+
+## Prototype Development
+Some use cases are not as trivial as the above tutorial. For example, some may require more than one Issuer and/or Verifier. Others may even require multiple credential schemas per Issuer. 
+
+While it is *not required* for the submission criteria for the ```Digital Trust Ideation``` track, it is **highly recommended** that the team documents the prototype recreation steps.
+
+Follow these instructions to create a reproducible prototype creation file:
+
+1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][12]).
+2. Create a new file called `make_prototype.md` in the repo using your IDE. 
+3. Using the [above tutorial](#tutorial) as a guide, copy the applicable steps to the `make_prototype.md` file.
+4. Customize (update) each step as applicable for the use case.
+5. Repeat steps 3-4 as required. 
+
+[1]: https://code.visualstudio.com/
+[2]: https://atom.io

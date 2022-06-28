@@ -3,7 +3,7 @@ Template Instructions
  
 Welcome to the Discover TruCreds Digital Trust Hackathon.
 
-This GitHub Repo represents a template for your project. It represents the central repository of all artifacts produced by your team. This repositiory will be referenced durning the judging activity and after the event has completed.
+This GitHub Repo represents a template for your project. It represents the central repository of all artifacts produced by your team. This repository will be referenced durning the judging activity and after the event has completed.
 
 Please follow the Template Instructions herein to update this README.
 

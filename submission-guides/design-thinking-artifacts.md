@@ -2,7 +2,7 @@
 
 The instructions herein provide guidance on how a participating hackathon team can get started on the delivery of the requirements for their selected event track. 
 
->NOTE: These instructions are applicable to both event tracks
+>NOTE: These instructions are applicable to both event tracks.
 ## Prerequisite Educational
 
 The following plenary sessions are recommended before beginning the hackathon. Please refer to the [Participant Guide](https://www.notion.so/angelhack/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for the schedule of sessions. 
@@ -31,9 +31,9 @@ Upon successful completion of this guide, the following hackathon checklist requ
 
 | Artifact | Description |
 | --- | --- |
-| Use Case | Markdown file describing the story with support by UML diagrams. |
+| Use Case Story | Markdown file describing the use case with support by UML diagrams. |
 | Design Thinking Miro Board | URL to whiteboard used for team brainstorming. |
-| Design Thinking Playback Brief | PowerPoint Presentation used to convey results of Design Thinking activities.|
+| Design Thinking Playback Brief | PowerPoint Presentation used to convey results of Design Thinking activities. This presentation *should* be used for the creation of the 2-min Concept Video. |
 
 ## Instructions
 

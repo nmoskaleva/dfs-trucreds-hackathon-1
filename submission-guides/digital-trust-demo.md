@@ -1,3 +1,0 @@
-# Digital Trust Demo 
-
->Placeholder 

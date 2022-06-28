@@ -1,3 +1,0 @@
-# Digital Trust Prototype 
-
->Placeholder 
