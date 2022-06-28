@@ -1,5 +1,12 @@
 # Digital Trust Ideation
 
+#### Table of Contents
+- [Digital Trust Ideation](#digital-trust-ideation) 
+      - [Table of Contents](#table-of-contents)
+  - [Tutorial](#tutorial)
+  - [Prototype Documentation](#prototype-documentation)
+  
+
 Follow these instructions to develop a prototype using **Verity Flow** by [Avast](https://avast.com) for the ```Digital Trust Ideation``` track of the hackathon.
 
 Verity Flow will act as an issuer and as a verifier, and the Connect.Me mobile application will be the holder.
@@ -11,7 +18,7 @@ The following is a tutorial to lead you step-by-step through the issuance and ve
 2. Create one or more Verity Flow accounts by sending an email of the following form to [Natalia Moskaleva](mailto:natalia.moskaleva@avast.com):
 
    ```
-   Subject: Request for DFS hackathon Verity Flow account(s)
+   Subject: DFS TruCreds Hackathon - Request for Verity Flow account(s)
 
    Team: <your team name>
    Discover email addresses: <one or more space-separated Discover team member addresses>
@@ -98,15 +105,15 @@ The following is a tutorial to lead you step-by-step through the issuance and ve
 
 Congratulations!  You have successfully performed both an issuance and a verification flow.
 
-## Prototype Development
-Some use cases are not as trivial as the above tutorial. For example, some may require more than one Issuer and/or Verifier. Others may even require multiple credential schemas per Issuer. 
+## Prototype Documentation
+Some use cases are not as trivial as the [above tutorial](#tutorial). For example, some may require more than one Issuer and/or Verifier. Others may even require multiple credential schemas per Issuer. 
 
 While it is *not required* for the submission criteria for the ```Digital Trust Ideation``` track, it is **highly recommended** that the team documents the prototype recreation steps.
 
 Follow these instructions to create a reproducible prototype creation file:
 
 1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][12]).
-2. Create a new file called `make_prototype.md` in the repo using your IDE. 
+2. Edit the file called `make_prototype.md` in the repo using your IDE. 
 3. Using the [above tutorial](#tutorial) as a guide, copy the applicable steps to the `make_prototype.md` file.
 4. Customize (update) each step as applicable for the use case.
 5. Repeat steps 3-4 as required. 
