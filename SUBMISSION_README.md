@@ -56,13 +56,13 @@ WARNING: Judges will stop listening to Pitch Video after the 2 minute mark so do
 | Use Case | [Story](./hackproject/usecase.md) |
 | Design Thinking Miro Board | [team-name-whiteboard](miro.url) |
 | Design Thinking Playback Brief | [Playback Presentation](./presentations/playback-brief.ppt)|
-| Concept Playback Video | [Video URL]()] |
+| Concept Playback Video | [Video URL]()|
 | Concept Show-n-Tell Video | [Video URL]() |
 | Code |  [Solution Readme](./hackprokect/README.md) |
 
 ## Solution Decisions
 ```
-Template Instructions: Optional Section. If the team has documented reasons for any of their business or technical decisions, itemize the links to the decision documents using the tenplate in the /decisions folder.  Remove this section if nothing to list.
+Template Instructions: Optional Section. If the team has documented reasons for any of their business or technical decisions, itemize the links to the decision documents using the template in the /decisions folder.  Remove this section if nothing to list.
 ```
 
 1. [ADR 01](./decisions/adr-01.md)

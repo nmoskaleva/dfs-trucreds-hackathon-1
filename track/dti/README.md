@@ -112,7 +112,7 @@ While it is *not required* for the submission criteria for the ```Digital Trust 
 
 Follow these instructions to create a reproducible prototype creation file:
 
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][12]).
+1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][2]).
 2. Edit the file called `make_prototype.md` in the repo using your IDE. 
 3. Using the [above tutorial](#tutorial) as a guide, copy the applicable steps to the `make_prototype.md` file.
 4. Customize (update) each step as applicable for the use case.
