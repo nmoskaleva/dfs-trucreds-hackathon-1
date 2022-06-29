@@ -22,7 +22,7 @@ The following resources provide a bootstrap for participating hackers.
 
 | Template | Description |
 | --- | --- |
-| Use Case Story | [Story template](../designs/story-template.md)] |
+| Use Case Story | [Story template](../designs/story-template.md) |
 | Design Thinking Miro Board Template | [Innovation Accelerator TruCreds Workshop Template]() |
 | Design Thinking Playback Brief | [Innovation Accelerator TruCreds Playback Template]().|
 
