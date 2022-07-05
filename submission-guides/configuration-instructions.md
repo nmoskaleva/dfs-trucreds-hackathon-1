@@ -23,7 +23,7 @@ To ensure a smooth development and submission process for your project, it is im
 1. Determine which computer will be used as the **Development Workstation**. This needs to be a *personal computer* that is not connected to the Discover VPN.
 2. Determine which computer will be used as the **Discover Workstation**. This needs to be a Discover provided computer that is connected to the Discover VPN.
 
-### Create Repo
+### Create Repository
 
 Please follow the these instructions for creating a ``` Team Workspace``` repository from a project template using a Development Workstation:
 
@@ -59,7 +59,7 @@ Our hackathon, offers two (2) event tracks. Each participating team must select 
     * REPO_FOLDER: Name of the local project folder
     * SELECTION: 
         * Digital Trust ideation: `dti`
-        * Hack the Coide: `htc`
+        * Hack the Code: `htc`
 
 3. Move `README.md` to the `archive` folder. Rename it to `ORIGINAL_INSTRUCTIONS.md`.
 

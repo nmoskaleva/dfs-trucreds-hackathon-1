@@ -10,8 +10,10 @@
 Follow these instructions to develop a prototype using **Verity Flow** by [Avast](https://avast.com) for the ```Digital Trust Ideation``` track of the hackathon.
 
 Verity Flow will act as an issuer and as a verifier, and the Connect.Me mobile application will be the holder.
+
 ## Tutorial
-The following is a tutorial to lead you step-by-step through the issuance and verification flows using these tools.
+
+The following is a tutorial which leads you step-by-step through the issuance and verification flows using these tools.
 
 1. First, install the Connect.Me Digital Wallet mobile application on your iphone or android device.  It is available for free from the Apple AppStore for your iphone device, or from Google Play for your android device.
 
@@ -106,9 +108,20 @@ The following is a tutorial to lead you step-by-step through the issuance and ve
 Congratulations!  You have successfully performed both an issuance and a verification flow.
 
 ## Prototype Documentation
-Some use cases are not as trivial as the [above tutorial](#tutorial). For example, some may require more than one Issuer and/or Verifier. Others may even require multiple credential schemas per Issuer. 
 
-While it is *not required* for the submission criteria for the ```Digital Trust Ideation``` track, it is **highly recommended** that the team documents the prototype recreation steps.
+The [tutorial](#tutorial) above demonstrated a single issuer with one schema and a single verifier.  However, it is important for you to know that all use cases are not this trivial.  One or more of the following may be true for your use case.
+
+* You may have multiple issuers.  For example, consider a use case in which a verifier requires some attributes from  a person's employment credential and other attributes from their driver's license.
+
+* You may have multiple verifiers.  For example, consider a use case requiring multiple different types of verification and different places in an airport.
+
+* You may have an entity which is both an issuer and a verifier.  For example, consider a use case in which a person's driver's license had to be verified before issuing them an employment credential.
+
+* A single issuer may issue multiple types of credentials, each with a different schema.  For example, a single issuer might issue credentials for multiple types of employee badges.
+
+These will depend upon your use case.
+
+Also, while it is *not required* for the submission criteria for the ```Digital Trust Ideation``` track, it is **highly recommended** that the team documents the prototype recreation steps.
 
 Follow these instructions to create a reproducible prototype creation file:
 
