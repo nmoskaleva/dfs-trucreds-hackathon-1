@@ -1,5 +1,17 @@
 ## Hackathon Project Workspace Configuration Instructions
 
+Two GitHub repositories are needed for your project:
+1. External GitHub repository (github.com)
+2. Internal Discover Enterprise GitHub repository (github.discoverfinancial.com)
+
+Two Workstations are needed for your project:
+1. Your personal Development Workstation
+2. Your Discover Workstation
+
+Due to Discover firewall and security policies, the project you will be creating cannot access the required services and endpoints from within the Discover network, so an external GitHub repository and a personal workstation are needed.  Once your project is done, it must be copied into the Discover network for judging.
+
+### GitHub
+
 Each team should assign an engineer to take the necessary steps to provision the team's project repository in the Discover Enterprise GitHub environment. 
 
 Participants will need to make use of a predefined submission repository called a boilerplate, or “project template”, to quickly provision projects in a consistent manner.
@@ -25,7 +37,7 @@ Please follow the these instructions for creating a ``` Team Workspace``` reposi
 8. Clone the Team Workspace repo to the Development Workstation
 
 ###  Pick an Event Track
-Our hackathon, offers two (2) event tracks. Each pafrticipating team must select the track they will comepete within.
+Our hackathon, offers two (2) event tracks. Each participating team must select the track they will comepete within.
 
 | Track | Description | Key Submission Artifacts | Required Skills |
 | --- | --- | --- | --- | 
@@ -33,7 +45,7 @@ Our hackathon, offers two (2) event tracks. Each pafrticipating team must select
 | **Hack the Code** | Development of an end-to-end demonstration of a FinTech use case that has applicability to Discover. | Miro Board Link, Use Case Playback Brief (SCIPAB and/or What/Why/Wow,Persona, Empathy and Journey Maps, Business Lean Canvas), Sequence Diagrams, Demo Code, 2-min Concept Playback Video, 2-min Demo Video | Design Thinking, Business and Technical Acumen, Avast Development, UML |
 
 ### Update Readme
-1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][12]).
+1. Open the repository using your favorite IDE (i.e. [Visual Studio Code][1], [Atom][2]).
 2. Based on track selected, copy the appropriate `sample code` 
 
     ```
