@@ -15,9 +15,9 @@ Regardless of event track, all participating team *must* produce the following s
 
 | Submission Requirement| Submission Guidance  | Learning Events |
 | --- | --- | --- |
-| Miro Board Link |[Design Thinking Artifacts](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
-| Use Case Playback Brief |[Design Thinking Artifacts](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
-| Use Case Story | [Design Thinking Artifacts](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
+| Miro Board Link |[Design Thinking Guide](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
+| Use Case Playback Brief |[Design Thinking Guide](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
+| Use Case Story | [Design Thinking Guide](./submission-guides/design-thinking-artifacts.md) | Design Thinking Experience |
 | 2-min Concept Playback Video | [Video Creation Guide](./submission-guides/video-creation-guide.md)| Pitch Workshop |
 
 ## Track Submission Requirements 

@@ -11,7 +11,7 @@ To ensure a smooth development and submission process for your project, it is im
 
 ### Create Submission Repository
 
-1. Using a [Discover Enterprise GitHub account](https://github.discoverfinancial.com/), create a new repository using the following naming convention:
+1. Using a [Discover Enterprise GitHub account](https://github.discoverfinancial.com/), create a new `Team Project Submission Repository` using the following naming convention:
 
     ```
     trucreds-<team-project-name>
