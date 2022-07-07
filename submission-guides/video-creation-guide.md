@@ -32,7 +32,29 @@ Upon successful completion of this guide, the following hackathon checklist requ
 
 ## Instructions
 
->ToDo K.Allen's Team
+Please follow these instructions for the creation of a video recording using Microsoft Teams.
+
+1. Open Microsoft Teams and click the Calendar option on the left-hand menu
+ 
+3. Click ‘Meet now’ in the top-right corner
+ 
+4. Change the title of the meeting to the desired title of your video
+ 
+5. Click ‘Get a Link to Share’ and email that link to all the attendees of the meeting including the personal email for the team member that is using his/her personal device(s) for the running of the prototype or demo.
+ 
+6. On your Discover device, click Start Meeting
+ 
+7. Join the Teams meeting from your personal device(s) via the link you sent yourself
+ 
+8. Make sure your camera and microphone on from the device you intend to record from. Mute your microphone and turn off the camera on your Discover device. If you are using more than one personal device, please only have one active microphone in use to avoid audio feedback.
+ 
+9. When you are connected on all devices and ready to record, using your Discover device, click ‘More’ in the top navigation bar, then ‘Start recording.’ It typically takes about 5-10 seconds for the actual recording to begin.
+    
+10. Return to your personal device(s) and start your presentation. Share any screens as necessary.
+ 
+11. When you are done, click ‘More’ and then ‘Stop Recording.’ End the meeting. A recording and transcription will be available in your recent Teams chats.
+ 
+12. Locate video file in the recent Teams chat. Click on the 3 dots in the top right corner of the video file and select ‘Get link.’ Submit this URL using the Hackathon submission form. 
 
 
 
