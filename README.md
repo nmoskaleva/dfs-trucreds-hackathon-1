@@ -24,7 +24,7 @@ This repository was developed by Discover Financial Services and publicly contri
 * [Mobile SDK](https://gitlab.com/evernym/mobile):Mobile SSI wallet functionality for credential holders.
 
 ## License
-This repository is licensed under the [MIT License](./LICENSE).
+This repository is licensed under the [Apache V2.0 License](./LICENSE).
 
 
 
