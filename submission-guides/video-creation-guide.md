@@ -32,6 +32,8 @@ Upon successful completion of this guide, the following hackathon checklist requ
 
 ## Instructions
 
+>Warning: Do not record videos on personal computer as videos need to be stored on Discover systems.
+
 Please follow these instructions for the creation of a video recording using Microsoft Teams.
 
 1. Using a Discover Computer the meeting host can open Microsoft Teams and click the Calendar option on the left-hand menu
