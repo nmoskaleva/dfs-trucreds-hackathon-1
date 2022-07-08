@@ -36,7 +36,7 @@ Upon successful completion of this guide, the following hackathon checklist requ
 
 Please follow these instructions for the creation of a video recording using Microsoft Teams.
 
-1. Using a Discover Computer the meeting host can open Microsoft Teams and click the Calendar option on the left-hand menu
+1. Using a Discover computer, the meeting host can open Microsoft Teams and click the Calendar option on the left-hand menu
  
 3. Click ‘Meet now’ in the top-right corner
  
@@ -46,15 +46,15 @@ Please follow these instructions for the creation of a video recording using Mic
  
 6. On your Discover device, click Start Meeting
  
-7. Join the Teams meeting from your personal device(s) via the link you sent yourself
+7. Join the Teams meeting from your device(s) via the link from step 5
  
-8. Make sure your camera and microphone on from the device you intend to record from. Mute your microphone and turn off the camera on your Discover device. If you are using more than one personal device, please only have one active microphone in use to avoid audio feedback.
+8. Make sure your camera and microphone are on from the personal device you intend to record from. Mute your microphone and turn off your camera on your Discover device. If you are using more than one personal device, please only have one active microphone in use to avoid audio feedback.
  
 9. When you are connected on all devices and ready to record, using your Discover device, click ‘More’ in the top navigation bar, then ‘Start recording.’ It typically takes about 5-10 seconds for the actual recording to begin.
     
 10. At this point the attendees using the personal device can start sharing their screen. Share any screens as necessary.
  
-11. When the meeting is done then host can click ‘More’ and then ‘Stop Recording’ to end the meeting. A recording and transcription will be available in the Microsoft Teams chat for the session.
+11. When the meeting is done, the host can click ‘More’ and then ‘Stop Recording’ to end the meeting. A recording and transcription will be available in the Microsoft Teams chat for the session.
  
 12. Once Microsoft teams has completed the processing of the recording, the host can locate the video file in the recent Teams chat. Click on the 3 dots in the top right corner of the video file and select ‘Get link.’ Submit this URL using the Hackathon submission form. 
 
