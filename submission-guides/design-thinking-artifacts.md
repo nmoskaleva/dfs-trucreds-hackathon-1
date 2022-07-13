@@ -56,7 +56,7 @@ The Design Thinking day is for you and your team to take time ***before*** the H
 * [I Need a Idea](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307)
 
 **If you need help understanding any of the exercises, please refer to any of the follow:**
-* Video of a team going through all the exercises (Link comoing soon)
+* [Video of a team going through all the exercises](https://web.microsoftstream.com/video/deb6f4ce-1b36-4450-8b7a-5d87b95c4c79)
 ```Note: At the beginning of each exercise a facilitator describes the method. There are also time codes in the video details that let you skip to sections with the specific methods.```  
 * [Example of a completed Design Thinking Miro Template
 ](https://)  
