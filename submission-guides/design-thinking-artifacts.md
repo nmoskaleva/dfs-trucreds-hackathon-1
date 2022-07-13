@@ -52,8 +52,8 @@ The Design Thinking day is for you and your team to take time ***before*** the H
 ### Design Thinking Day Assets
 
 **Use the Miro templates listed below that best fits your needs:**
-* [I Have an Idea](https://)
-* [I Need a Idea](https://)
+* [I Have an Idea](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSchyk%3D&isCustom=true&share_link_id=923512925225)
+* [I Need a Idea](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307)
 
 **If you need help understanding any of the exercises, please refer to any of the follow:**
 * Video of a team going through all the exercises (Link comoing soon)
