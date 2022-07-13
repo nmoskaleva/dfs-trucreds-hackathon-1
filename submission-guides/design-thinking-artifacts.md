@@ -22,10 +22,10 @@ The following resources provide a bootstrap for participating hackers.
 
 | Template | Description |
 | --- | --- |
-| Design Thinking Miro Board Template - I **Have** an Idea | [I Have an Idea - Innovation Accelerator TruCreds Workshop Template]() |
-| Design Thinking Miro Board Template - I **Need** an Idea | [I Need an Idea - Innovation Accelerator TruCreds Workshop Template]() |
+| Design Thinking Miro Board Template - I **Have** an Idea | [I Have an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSchyk%3D&isCustom=true&share_link_id=923512925225) |
+| Design Thinking Miro Board Template - I **Need** an Idea | [I Need an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307) |
 | Use Case Story | [Story template](../designs/story-template.md) |
-| Design Thinking Playback Brief | [Innovation Accelerator TruCreds Playback Template]().|
+| Design Thinking Playback Brief |```Link Coming Soon```|
 
 ## Exit Criteria
 Upon successful completion of this guide, the following hackathon checklist requirements will be produced:
