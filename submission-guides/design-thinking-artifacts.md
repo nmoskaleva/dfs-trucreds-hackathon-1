@@ -59,16 +59,16 @@ The Design Thinking day is for you and your team to take time ***before*** the H
 * [Video of a team going through all the exercises](https://web.microsoftstream.com/video/deb6f4ce-1b36-4450-8b7a-5d87b95c4c79)
 ```Note: At the beginning of each exercise a facilitator describes the method. There are also time codes in the video details that let you skip to sections with the specific methods.```  
 * [Example of a completed Design Thinking Miro Template
-](https://)  
-* Design Thinking Mentor Teams Channel (Link cominig soon)
+](https://miro.com/app/board/uXjVOmu96Eg=/?share_link_id=356831181625)  
+* Design Thinking Mentor Teams Channel ```Link Coming Soon```
     
-Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available for **office hours** between 9:00-10:30AM Central and 2:30-4:00PM Central. [Join the Teams meeting here](https://)
+Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available for **office hours** between 9:00-10:30AM Central and 2:30-4:00PM Central. ```Link Coming Soon```
 
 ### Playback Brief
 
 To help you streamline creating a presentation for your hackathon project, we have created a PowerPoint template for you to use. The outline of this template follows exercises found in the Design Thinking Miro Templates, so make sure to take advantage of those!
 
-[Download the PowerPoint Template](https://)
+Download the PowerPoint Template ```Link Coming Soon```
  
 
 ### Use Case Story
