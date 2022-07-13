@@ -5,7 +5,7 @@ The instructions herein provide guidance on how a participating hackathon team c
 >NOTE: These instructions are applicable to both event tracks.
 ## Prerequisite Educational
 
-The following plenary sessions are recommended before beginning the hackathon. Please refer to the [Participant Guide](https://www.notion.so/angelhack/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for the schedule of sessions. 
+The following plenary sessions are recommended before beginning the hackathon. Please refer to the [Participant Guide](https://angelhack.notion.site/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for the schedule of sessions. 
 
 * Design Thinking Experience
 
