@@ -5,7 +5,7 @@ The instructions herein provide guidance on how a participating hackathon team c
 >NOTE: These instructions are applicable to both event tracks.
 ## Prerequisite Educational
 
-The following plenary sessions are recommended before beginning the hackathon. Please refer to the [Participant Guide](https://www.notion.so/angelhack/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for the schedule of sessions. 
+The following plenary sessions are recommended before beginning the hackathon. Please refer to the [Participant Guide](https://angelhack.notion.site/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for the schedule of sessions. 
 
 * Design Thinking Experience
 
@@ -22,26 +22,54 @@ The following resources provide a bootstrap for participating hackers.
 
 | Template | Description |
 | --- | --- |
+| Design Thinking Miro Board Template - I **Have** an Idea | [I Have an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSchyk%3D&isCustom=true&share_link_id=923512925225) |
+| Design Thinking Miro Board Template - I **Need** an Idea | [I Need an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307) |
 | Use Case Story | [Story template](../designs/story-template.md) |
-| Design Thinking Miro Board Template | [Innovation Accelerator TruCreds Workshop Template]() |
-| Design Thinking Playback Brief | [Innovation Accelerator TruCreds Playback Template]().|
+| Design Thinking Playback Brief |```Link Coming Soon```|
 
 ## Exit Criteria
 Upon successful completion of this guide, the following hackathon checklist requirements will be produced:
 
 | Artifact | Description |
 | --- | --- |
-| Use Case Story | Markdown file describing the use case with support by UML diagrams. |
 | Design Thinking Miro Board | URL to whiteboard used for team brainstorming. |
+| Use Case Story | Markdown file describing the use case with support by UML diagrams. 
 | Design Thinking Playback Brief | PowerPoint Presentation used to convey results of Design Thinking activities. This presentation *should* be used for the creation of the 2-min Concept Video. |
 
 ## Instructions
+### Design Thinking Day
 
-### Design Thinking Day 
->ToDo: J.Speir to describe steps for accessing, using miro board briefing.
+The Design Thinking day is for you and your team to take time ***before*** the Hackathon to use Design Thinking templates that are being provided to help you during the hackathon, as well as to help you prepare the presentation for your project.
 
-### Payback Brief
->ToDo: J.Speir to describe steps for building the playback deck from the results of design thinking day. 
+**Use our Design Thinking Miro templates to help you:**
+* Brainstorm a **new** idea or jump start an **existing** idea
+* Empathize with your users
+* Gain a better understanding of the problem your trying to solve
+* Identify and document your use case story
+* Understand where you should focus your time
+* Fast track your presentation
+
+### Design Thinking Day Assets
+
+**Use the Miro templates listed below that best fits your needs:**
+* [I Have an Idea](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSchyk%3D&isCustom=true&share_link_id=923512925225)
+* [I Need a Idea](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307)
+
+**If you need help understanding any of the exercises, please refer to any of the follow:**
+* [Video of a team going through all the exercises](https://web.microsoftstream.com/video/deb6f4ce-1b36-4450-8b7a-5d87b95c4c79)
+```Note: At the beginning of each exercise a facilitator describes the method. There are also time codes in the video details that let you skip to sections with the specific methods.```  
+* [Example of a completed Design Thinking Miro Template
+](https://miro.com/app/board/uXjVOmu96Eg=/?share_link_id=356831181625)  
+* Design Thinking Mentor Teams Channel ```Link Coming Soon```
+    
+Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available for **office hours** between 9:00-10:30AM Central and 2:30-4:00PM Central. ```Link Coming Soon```
+
+### Playback Brief
+
+To help you streamline creating a presentation for your hackathon project, we have created a PowerPoint template for you to use. The outline of this template follows exercises found in the Design Thinking Miro Templates, so make sure to take advantage of those!
+
+Download the PowerPoint Template ```Link Coming Soon```
+ 
 
 ### Use Case Story
 
