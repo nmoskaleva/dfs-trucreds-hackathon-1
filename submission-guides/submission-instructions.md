@@ -25,7 +25,7 @@ To ensure a smooth development and submission process for your project, it is im
 8. Publish (*push*) changes to the remote `Team Project Submission Repository`.
 
 ### Project Submission Form
-Refer to the event [Participant Guide](https://www.notion.so/angelhack/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for instructions on how to access the project submission form to **finalize** the submission process.  
+Refer to the event [Participant Guide](https://angelhack.notion.site/TruCreds-Hack-A-Digital-Trust-Hackathon-7e74d78809fb4a56bb9f898b48007464) for instructions on how to access the [project submission form](https://angelhack.notion.site/TruCreds-Hack-A-Digital-Trust-Hackathon-73311f3f12814be48b68b98334fe3fc4#3a5f7977edd24e509988a67a66213b6f) to **finalize** the submission process.  
   
 
 >WARNING: For a project to qualify as a submission, it must be discoverable using the `runway-t22-3` topic.
