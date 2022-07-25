@@ -60,7 +60,7 @@ The Design Thinking day is for you and your team to take time ***before*** the H
 ```Note: At the beginning of each exercise a facilitator describes the method. There are also time codes in the video details that let you skip to sections with the specific methods.```  
 * [Example of a completed Design Thinking Miro Template
 ](https://miro.com/app/board/uXjVOmu96Eg=/?share_link_id=356831181625)  
-* Design Thinking Mentor Teams Channel ```Link Coming Soon```
+* [Design Thinking Mentor Teams Channel](https://teams.microsoft.com/l/channel/19%3a5c32432aa67a4cf88aab70f1e17f87fe%40thread.tacv2/Design%2520Thinking%2520Mentor%2520Support?groupId=f7fa8db9-931d-488c-a84a-1895011b252f&tenantId=f3f068cf-080c-4824-a912-f8c4633bd454)
     
 Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available for **office hours** between 9:00-10:30AM Central and 2:30-4:00PM Central. ```Link Coming Soon```
 
