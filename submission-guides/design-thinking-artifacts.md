@@ -25,7 +25,7 @@ The following resources provide a bootstrap for participating hackers.
 | Design Thinking Miro Board Template - I **Have** an Idea | [I Have an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSchyk%3D&isCustom=true&share_link_id=923512925225) |
 | Design Thinking Miro Board Template - I **Need** an Idea | [I Need an Idea - Innovation Accelerator TruCreds Workshop Template](https://miro.com/app/dashboard/?tpTemplate=uXjVOmSTX18%3D&isCustom=true&share_link_id=500327005307) |
 | Use Case Story | [Story template](../designs/story-template.md) |
-| Design Thinking Playback Brief |```Link Coming Soon```|
+| Design Thinking Playback Template | [PowerPoint Template Download](https://discoverfinancial.sharepoint.com/:p:/s/TCI-Innovation/EfcdhWb8qxRGlSNyRQjt2sEBqrwKtnnUpef5Ja4pKY4Atg?e=qUrfOR)
 
 ## Exit Criteria
 Upon successful completion of this guide, the following hackathon checklist requirements will be produced:
@@ -62,13 +62,7 @@ The Design Thinking day is for you and your team to take time ***before*** the H
 ](https://miro.com/app/board/uXjVOmu96Eg=/?share_link_id=356831181625)  
 * [Design Thinking Mentor Teams Channel](https://teams.microsoft.com/l/channel/19%3a5c32432aa67a4cf88aab70f1e17f87fe%40thread.tacv2/Design%2520Thinking%2520Mentor%2520Support?groupId=f7fa8db9-931d-488c-a84a-1895011b252f&tenantId=f3f068cf-080c-4824-a912-f8c4633bd454)
     
-Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available for **office hours** between 9:00-10:30AM Central and 2:30-4:00PM Central. ```Link Coming Soon```
-
-### Playback Brief
-
-To help you streamline creating a presentation for your hackathon project, we have created a PowerPoint template for you to use. The outline of this template follows exercises found in the Design Thinking Miro Templates, so make sure to take advantage of those!
-
-Download the PowerPoint Template ```Link Coming Soon```
+Friday, August 19th is designated as the Design Thinking Day and should be used by your team to prepare for the event. Design Thinking mentors will be available between 8:00AM-4:00PM Central on [Teams](https://teams.microsoft.com/l/channel/19%3a5c32432aa67a4cf88aab70f1e17f87fe%40thread.tacv2/Design%2520Thinking%2520Mentor%2520Support?groupId=f7fa8db9-931d-488c-a84a-1895011b252f&tenantId=f3f068cf-080c-4824-a912-f8c4633bd454)
  
 
 ### Use Case Story
@@ -88,6 +82,13 @@ The objective here is to develop a human readable use case that can be easily co
    $ cp ./designs/story-template.md ./designs/USECASE_NAME.md 
    ```
 2. Edit the story using the provided outline as a guide. Follow the provided inline template instructions. Feel free to augment the outline as needed. Leverage the `./designs/images` resources as directed. 
+
+### Playback Brief
+
+To help you streamline creating a presentation for your hackathon project, we have created a PowerPoint template for you to use. The outline of this template follows exercises found in the Design Thinking Miro Templates, so make sure to take advantage of those!
+
+[Download the PowerPoint Template](https://discoverfinancial.sharepoint.com/:p:/s/TCI-Innovation/EfcdhWb8qxRGlSNyRQjt2sEBqrwKtnnUpef5Ja4pKY4Atg?e=qUrfOR)
+
 
 
 
