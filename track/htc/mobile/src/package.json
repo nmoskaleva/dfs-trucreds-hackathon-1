@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "evernym-sdk:configure": "yarn --cwd node_modules/@evernym/react-native-white-label-app run configure",
-    "postinstall": "patch-package --patch-dir ./node_modules/@evernym/react-native-white-label-app/files/patches"
+    "postinstall": "patch-package --patch-dir ./node_modules/@evernym/react-native-white-label-app/files/patches",
+    "evernym-sdk:configure-android": "./node_modules/@evernym/react-native-white-label-app/files/android/configure-android-mac.sh"
   },
   "dependencies": {
     "@evernym/react-native-white-label-app": "https://gitlab.com/evernym/mobile/react-native-white-label-app.git",
