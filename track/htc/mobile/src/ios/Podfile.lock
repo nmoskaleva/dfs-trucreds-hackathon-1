@@ -96,13 +96,13 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - Permission-Camera (3.3.1):
+  - Permission-Camera (3.6.0):
     - RNPermissions
-  - Permission-FaceID (3.3.1):
+  - Permission-FaceID (3.6.0):
     - RNPermissions
-  - Permission-Microphone (3.3.1):
+  - Permission-Microphone (3.6.0):
     - RNPermissions
-  - Permission-PhotoLibrary (3.3.1):
+  - Permission-PhotoLibrary (3.6.0):
     - RNPermissions
   - PromisesObjC (1.2.12)
   - RCT-Folly (2021.04.26.00):
@@ -447,7 +447,7 @@ PODS:
     - React-Core
     - React-RCTImage
     - TOCropViewController
-  - RNPermissions (3.3.1):
+  - RNPermissions (3.6.0):
     - React-Core
   - RNReanimated (2.2.3):
     - DoubleConversion
@@ -777,10 +777,10 @@ SPEC CHECKSUMS:
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
   lottie-react-native: 634369419ccfe6e4b891f6f74e903f1515ff6804
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  Permission-Camera: bae27a8503530770c35aadfecbb97ec71823382a
-  Permission-FaceID: 278547824ae3a5cae07050505e8a505932c3c5c4
-  Permission-Microphone: 13922195a81b9d46d2df8050c225006eae126d49
-  Permission-PhotoLibrary: ddb5a158725b29cb12e9e477e8a5f5151c66cc3c
+  Permission-Camera: 0a0fb4341f50ab242f496fb2f73380e0ec454fe7
+  Permission-FaceID: aaf43b353c25aaa2c1a501f93fa33dcb0f76e6c8
+  Permission-Microphone: 84bf2faad8d87969e8e275e9917a174424f948fc
+  Permission-PhotoLibrary: fda0fda455bebaa2602f3dfdf8296b28247c1484
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   RCT-Folly: 0dd9e1eb86348ecab5ba76f910b56f4b5fef3c46
   RCTRequired: 6cf071ab2adfd769014b3d94373744ee6e789530
@@ -833,7 +833,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNImageColors: f6b4dc737d15bf01bf379369655467e03b361861
   RNImageCropPicker: 54e5ea3d0e298ed51e1441a2fa0a0e7c90ee256d
-  RNPermissions: 34d678157c800b25b22a488e4d8babb57456e796
+  RNPermissions: de7b7c3fe1680d974ac7a85e3e97aa539c0e68ea
   RNReanimated: aaf2cf65595b293daae808015761a6014a97b284
   RNScreens: 4d79118be80f79fa1f4aa131909a1d6e86280af3
   RNShare: e11014e7afd7802aba95b6f52946061a5a55d8cf
