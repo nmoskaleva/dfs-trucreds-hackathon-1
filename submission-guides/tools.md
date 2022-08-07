@@ -7,12 +7,13 @@ The following resources pertain to the tools used in the hackathon by [Avast](ht
 
 * [Tutorial](https://gitlab.com/evernym/verity/verity-sdk/-/blob/main/docs/getting-started/getting-started.md#example-application-interactions)
 * [Testing Environments](https://gitlab.com/evernym/verity/verity-sdk/-/blob/main/docs/Environments.md)
-* [Verity Web App Sample](https://gitlab.com/evernym/verity/verity-sdk/-/tree/main/samples/new-customers/rest-api/web-app)
+* [Verity Web App Sample](https://gitlab.com/evernym/verity/verity-sdk/-/tree/main/samples/rest-api/web-app)
 * [React Native App](https://gitlab.com/evernym/mobile/mobile-sdk/-/package_files/26633365/download)
 * [Sponsor Server onboarding](https://gitlab.com/evernym/mobile/mobile-sdk/-/blob/main/docs/3.Initialization.md#sponsor-ie-you-onboarding-with-evernyms-cloud-service)
 * [Sponsor Server](https://gitlab.com/evernym/mobile/mobile-sdk/-/blob/main/docs/3.Initialization.md#sponsor-server)
 * [Simple Sponsor - Sample Token Server Code](https://gitlab.com/evernym/mobile/mobile-sdk/-/tree/main/examples/simple-sponsor)
 * [Verity Demo (Docker Version)](https://github.com/nbzeman/verity-demo)
+* [Verity Demo (Dockerless Version)](https://github.com/nbzeman/verity-demo/tree/non-docker)
 
 
 ## Hacker's Toolbelt
