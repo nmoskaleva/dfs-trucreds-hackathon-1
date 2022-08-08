@@ -6,7 +6,7 @@ Follow these instructions to develop a customized mobile application using the *
 
 The mobile app source code is available from Avast at https://gitlab.com/evernym/mobile/react-native-white-label-app.  It is written using React Native, and can be built for iOS and Android.
 
-The Avast repo [Readme](https://gitlab.com/evernym/mobile/react-native-white-label-app/README.md) outlines the instructions to edit and build the mobile app for iOS and Android.  To save time and simplify development, we've performed these instructions for you and have put the resulting code under the `src` directory.  You can start with either the [Avast repo](https://gitlab.com/evernym/mobile/react-native-white-label-app) or code in `src`.
+The Avast repo [Readme](https://gitlab.com/evernym/mobile/react-native-white-label-app/-/blob/main/README.md) outlines the instructions to edit and build the mobile app for iOS and Android.  To save time and simplify development, we've performed these instructions for you and have put the resulting code under the `src` directory.  You can start with either the [Avast repo](https://gitlab.com/evernym/mobile/react-native-white-label-app) or code in `src`.
 
 ## Tutorial
 
