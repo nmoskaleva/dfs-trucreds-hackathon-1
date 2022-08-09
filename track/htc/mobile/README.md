@@ -59,5 +59,25 @@ Steps:
 3. Attach iOS device
 4. Build and run project
 
+## Registering your Mobile Sponsor with Avast (Evernym) Cloud Service 
 
+For the mobile application to work as expected, your team has to have a Mobile Sponsor registered with [Evernym's Cloud Service](https://gitlab.com/evernym/mobile/mobile-sdk/-/blob/main/docs/3.Initialization.md#sponsor-ie-you-onboarding-with-evernyms-cloud-service). 
 
+Avast has pre-registered some Mobile Sponsor IDs for the DFS Hackathon participants, so you don't need to generate your own verification key as described in the documentation. To get registered, simply send an email of the following form to natalia.moskaleva@avast.com:
+
+   ```
+   Subject: Mobile Sponsor Registration Request for DFS hackathon 
+
+   Team: <your team name>
+   ```
+
+You will receive an email confirmation containing your Sponsor ID, as well as the `verkey` and `seed` for your Mobile Sponsor. 
+
+You will then need to:
+- Update the `SPONSOR_ID` in the `app/provision.js` file with your Sponsor ID. 
+- Have your Sponsor Server running. The Sponsor Server will generate and sign a token necessary to provision a Cloud Agent for your app. It is recommended to run the Sponsor Server with Docker. Please refer to [Evernym's documentation for Sponsor Server](https://gitlab.com/evernym/mobile/mobile-sdk/-/tree/main/examples/simple-sponsor) for details. The `verkey` and `seed` you received from Natalia have to be added to the `server.conf` file in your Sponsor Server. 
+- Additionally, make sure you have a working `GET_PROVISION_TOKEN_FUNC` function in your `app/provision.js`. 
+
+## Additional Considerations
+
+- Push Notifications are not implemented in the app and would require additional configurations. The app uses polling for messages by default. For more details on push notifications, see [this document](https://gitlab.com/evernym/mobile/mobile-sdk/-/blob/main/docs/PushNotifications.md).
