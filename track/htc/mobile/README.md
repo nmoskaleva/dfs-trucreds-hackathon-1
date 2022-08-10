@@ -27,7 +27,7 @@ Avast has pre-registered some Mobile Sponsor IDs for the DFS Hackathon participa
 You will receive an email confirmation containing your Sponsor ID, as well as the `verkey` and `seed` for your Mobile Sponsor. 
 
 You will then need to:
-- Update the `SPONSOR_ID` in the `app/evernym-sdk/provision.js` file with your Sponsor ID. Make sure the `DEFAULT_SERVER_ENVIRONMENT` is set to `"DEMO"`, and you have a working `GET_PROVISION_TOKEN_FUNC` function. An example is provided [here](/src/app/evernym-sdk/provision.js#L22).
+- Update the `SPONSOR_ID` in the `app/evernym-sdk/provision.js` file with your Sponsor ID. Make sure the `DEFAULT_SERVER_ENVIRONMENT` is set to `"DEMO"`, and you have a working `GET_PROVISION_TOKEN_FUNC` function. An example is provided [here](./src/app/evernym-sdk/provision.js#L22).
 - Run your Sponsor Server. The Sponsor Server will generate and sign a token necessary to provision a Cloud Agent for your app. Please refer to [Evernym's documentation](https://gitlab.com/evernym/mobile/mobile-sdk/-/tree/main/examples/simple-sponsor) for details. It is recommended to run the Sponsor Server [with Docker](https://gitlab.com/evernym/mobile/mobile-sdk/-/tree/main/examples/simple-sponsor#in-docker). The `verkey` and `seed` you received from Natalia have to be added to the `server.conf` file in your Sponsor Server. 
 
 You will only need your Sponsor Server running when the app is first initialized (the token is generated and signed when you finish setting up the app and accept Terms and Conditions). As soon as the app is set up and the token is generated, you can stop the Sponsor Server. 
@@ -40,7 +40,7 @@ To build the React Native White Label Mobile App, you will need the following pr
 - Node.js 12.22+ (tested with 16.15.1)
 - Android device
 
-**Make sure you have received your Sponsor ID, updated the files as described above, and have your Sponsor Server running before you proceed to the next steps.**
+**Make sure you have received your Sponsor ID, updated the files as described [above](#register-your-mobile-sponsor-with-avast-evernym-cloud-service), and have your Sponsor Server running before you proceed to the next steps.**
 
 Steps:
 1. Install prereqs
@@ -68,7 +68,7 @@ To build the React Native White Label Mobile App, you will need the following pr
 - Node.js 12.22+ (tested with 16.15.1)
 - iOS device (tested with iPhone 11 iOS 15.5)
 
-**Make sure you have received your Sponsor ID, updated the files as described above, and have your Sponsor Server running before you proceed to the next steps.**
+**Make sure you have received your Sponsor ID, updated the files as described [above](#register-your-mobile-sponsor-with-avast-evernym-cloud-service), and have your Sponsor Server running before you proceed to the next steps.**
 
 Steps:
 
